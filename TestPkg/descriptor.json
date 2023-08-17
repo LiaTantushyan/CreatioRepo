@@ -1,0 +1,17 @@
+﻿{
+  "Descriptor": {
+    "UId": "3a362373-b937-9e8e-2122-f57239dfb1e8",
+    "Name": "TestPkg",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1692182455000)\/",
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/TestPkg.csproj",
+    "DependsOn": [
+      {
+        "UId": "2fabaf6c-0f92-4530-aef8-40345c021da2",
+        "PackageVersion": "7.8.0",
+        "Name": "ProductCore"
+      }
+    ]
+  }
+}
