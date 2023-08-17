@@ -63,6 +63,9 @@
 		<None Remove="$(RelativeCurrentPkgFolderPath)Data/**" />
 		<None Remove="$(RelativeCurrentPkgFolderPath)SqlScripts/**" />
 		<None Remove="$(RelativeCurrentPkgFolderPath)Resources/**" />
+		<Compile Update="..\Schemas\UsrRealtyType\UsrRealtyType.cs">
+		  <Link>UsrRealtyType\UsrRealtyType.cs</Link>
+		</Compile>
 	</ItemGroup>
 	<ItemGroup Label="Package Assembly References">
 		<Reference Include="$(RelativeCurrentPkgFolderPath)Assemblies/*/*.dll">
@@ -255,7 +258,6 @@
 			<Private>False</Private>
 		</Reference>
 	</ItemGroup>
-	<ItemGroup Label="3rd Party References"></ItemGroup>
 	<Target Name="Paths" BeforeTargets="BeforeCompile">
 		<Message Importance="High" Text="*********** Project [$(MSBuildProjectFile)] TargetFramework [$(TargetFramework)] CoreTargetFramework [$(CoreTargetFramework)]" />
 		<!--
